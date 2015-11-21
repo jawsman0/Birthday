@@ -12,7 +12,7 @@ class Ethan
 	public static string StringAge;
 	public static string Correct;
 
-	public static void Mwain ()
+	public static void Main ()
 	{
 		Console.WriteLine ("");
 		System.Console.WriteLine ("How Old Are You?");
@@ -26,7 +26,7 @@ class Ethan
 		}else{
 			Console.WriteLine ("");
 			Console.WriteLine ("That Is Not A Number!!");
-			Mwain ();
+			Main ();
 		}
 
 		StringAge = Age.ToString ();
@@ -40,7 +40,7 @@ class Ethan
 		{
 			Console.WriteLine ("It Is Very Unlikely To Be That Old Please Try This Again");
 			Console.WriteLine ("");
-			Mwain ();
+			Main ();
 		}else{
 			Console.WriteLine ("");
 		}
